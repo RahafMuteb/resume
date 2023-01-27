@@ -1,0 +1,85 @@
+body {
+    height: 2000px;
+    width: 1189px;
+    background-color: black;
+    margin: auto;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 5px 5px 20px #a6a8ab;
+    font-family: Playfair Display;
+
+}
+
+p em {
+    font-size: 35px;
+}
+
+#container {
+    background-color: #c97aff;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    box-shadow: -10px -10px 5px #202225;
+}
+
+#container div {
+    height: 500px;
+    width: 400px;
+    margin-left: 100px;
+    background-color: inherit;
+    margin-top: 50px;
+
+}
+
+img.divfirst {
+    height: 300px;
+    width: 400px;
+    float: top;
+    box-shadow: -5px -10px 5px #6a4e84;
+}
+
+p.divfirst {
+    height: 300px;
+    width: 400px;
+    float: bottom;
+    text-align: center;
+    font-size: 30px;
+    color: #202225;
+}
+
+img.divsecond {
+    height: 300px;
+    width: 400px;
+    float: top;
+    box-shadow: -5px -10px 5px #6a4e84;
+}
+
+p.divsecond {
+    height: 400px;
+    width: 400px;
+    float: bottom;
+    text-align: center;
+    font-size: 30px;
+    color: #202225;
+
+}
+
+a {
+    text-decoration: underline;
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 130px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

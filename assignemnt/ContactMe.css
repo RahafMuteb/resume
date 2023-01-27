@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 120px;
+    text-shadow: 5px 5px 20px #a6a8ab;
+    font-family: Playfair Display;
+}
+
+.container {
+    background-color: #c97aff;
+    height: 404px;
+    width: 100%;
+}
+
+#logo {
+    background-color: #c97aff;
+    width: 37%;
+    border-radius: 50%;
+    margin: auto;
+    float: left;
+
+
+}
+
+#logo img {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    box-shadow: -10px 10px 5px rgb(151, 68, 229);
+}
+
+#social {
+    background-color: #202225;
+    width: 63%;
+    height: 404px;
+    float: right;
+    margin: auto;
+    box-shadow: 0 10px 5px #303337;
+    display: flex;
+    text-align: center;
+}
+
+.socialcontainer {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+svg {
+    width: 50px;
+    height: 50px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+}
+
+button:hover {
+    background-color: aliceblue;
+    transform: scale(1.5);
+    background-color: transparent;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

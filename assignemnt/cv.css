@@ -1,0 +1,158 @@
+body {
+
+    width: 4756px;
+    height: 5100px;
+    background-color: black;
+    margin: auto;
+}
+
+#container {
+    background-color: black;
+    width: 4756px;
+    height: 5100px;
+
+
+}
+
+#container div.leftside {
+    background-color: #000;
+    float: left;
+    height: 5100px;
+    margin: 0px;
+    width: 30%;
+    padding: 0;
+
+}
+
+#imgdiv {
+    border-radius: 50%;
+    background-color: #c97aff;
+}
+
+img {
+    width: 100%;
+    height: 2000px;
+    object-fit: contain;
+}
+
+.name {
+    font-size: 180px;
+    color: #738290;
+    text-align: center;
+    color: transparent;
+    text-shadow: 10px 10px 7px #c97aff;
+}
+
+
+#icondiv {
+    margin: 0 auto;
+    padding: 0;
+    width: 1420px;
+    height: 300px;
+    background-color: #c97aff;
+    border-radius: 25px;
+    display: flex;
+}
+
+#icondiv button {
+    width: 700px;
+    height: 300px;
+    background-color: inherit;
+    border: 0;
+}
+
+#icondiv button:hover {
+    transform: scale(1.5);
+}
+
+button img {
+    width: 200px;
+    height: 300px;
+
+}
+
+
+#container div.rightside {
+    background-color: #202225;
+    float: right;
+    height: 5100px;
+    width: 70%;
+}
+
+h1 {
+    font-size: 400px;
+    color: azure;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#aboutme {
+    text-align: center;
+    margin-right: 370px;
+    font-size: 80px;
+    color: #c97aff;
+}
+
+#edu {
+    text-align: left;
+    color: #738290;
+    font-size: 100px;
+    margin-left: 250px;
+}
+
+hr {
+    color: #738290;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h2 {
+    color: azure;
+    font-size: 150px;
+    margin-left: 350px;
+
+}
+
+p.obj {
+    display: flex;
+}
+
+h3 {
+    width: 1200px;
+    color: #c97aff;
+    font-size: 110px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+#icon1 {
+    height: 250px;
+    width: 250px;
+    margin-left: 300px;
+    padding-top: 30px;
+}
+
+#icon2 {
+    height: 250px;
+    width: 250px;
+    margin-left: 300px;
+    padding-top: 30px;
+
+}
+
+.icons:hover {
+    background-color: aliceblue;
+    transform: scale(1.5) translate(0%, -100%);
+}
+
+@media (max-width: 1000px) {
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .obj {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
